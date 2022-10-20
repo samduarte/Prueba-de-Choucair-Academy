@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 
 public class DevicePage {
 
-    public static final Target COMPUTER = Target.the("Contenedor SO Computador")
+    public static final Target COMPUTER = Target.the("Con es Label es para selecionar el tipo de sistema que tiene mi equipo")
             .located(By.xpath("/html/body/ui-view/main/section/div/div[2]/div/div[2]/div/div[1]/div[3]/div[1]/div[1]/div[2]/div/div[1]/span"));
 
     public static final Target COMPUTER_SO = Target.the("Seleccionar SO de computador")
